@@ -12,9 +12,14 @@
 		A745ADDA21BFA4150065E2F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A745ADD821BFA4150065E2F7 /* LaunchScreen.storyboard */; };
 		A745ADDD21BFA4150065E2F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A745ADDC21BFA4150065E2F7 /* main.m */; };
 		A745ADF921BFA4D20065E2F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A745ADEE21BFA4D20065E2F7 /* AppDelegate.m */; };
+		A745ADFF21BFA7B40065E2F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A745ADFE21BFA7B40065E2F7 /* ViewController.m */; };
+		EB88D8FAE097B5C2DE9A0DF0 /* libPods-Yingke-TV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0451FA868E045B85CA8D825 /* libPods-Yingke-TV.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		371573C6D46210A9EB221D26 /* Pods-Yingke-TV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yingke-TV.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yingke-TV/Pods-Yingke-TV.release.xcconfig"; sourceTree = "<group>"; };
+		5EA423794E262594841C68ED /* Pods-Yingke-TV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yingke-TV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yingke-TV/Pods-Yingke-TV.debug.xcconfig"; sourceTree = "<group>"; };
+		A0451FA868E045B85CA8D825 /* libPods-Yingke-TV.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Yingke-TV.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A745ADCA21BFA4140065E2F7 /* Yingke-TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yingke-TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A745ADD421BFA4140065E2F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A745ADD621BFA4150065E2F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -23,6 +28,9 @@
 		A745ADDC21BFA4150065E2F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A745ADED21BFA4D20065E2F7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A745ADEE21BFA4D20065E2F7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A745ADFD21BFA7B40065E2F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A745ADFE21BFA7B40065E2F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A745AE0021BFA83E0065E2F7 /* yingke.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = yingke.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB88D8FAE097B5C2DE9A0DF0 /* libPods-Yingke-TV.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +50,8 @@
 			children = (
 				A745ADCC21BFA4140065E2F7 /* Yingke-TV */,
 				A745ADCB21BFA4140065E2F7 /* Products */,
+				E595BA0FEBA685445CB1ECAA /* Pods */,
+				DA902303C4717578C5F2F367 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +155,9 @@
 			children = (
 				A745ADED21BFA4D20065E2F7 /* AppDelegate.h */,
 				A745ADEE21BFA4D20065E2F7 /* AppDelegate.m */,
+				A745ADFD21BFA7B40065E2F7 /* ViewController.h */,
+				A745ADFE21BFA7B40065E2F7 /* ViewController.m */,
+				A745AE0021BFA83E0065E2F7 /* yingke.pch */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -226,6 +240,23 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		DA902303C4717578C5F2F367 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0451FA868E045B85CA8D825 /* libPods-Yingke-TV.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E595BA0FEBA685445CB1ECAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EA423794E262594841C68ED /* Pods-Yingke-TV.debug.xcconfig */,
+				371573C6D46210A9EB221D26 /* Pods-Yingke-TV.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -233,9 +264,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A745ADE021BFA4150065E2F7 /* Build configuration list for PBXNativeTarget "Yingke-TV" */;
 			buildPhases = (
+				6C9E0C630FBD34895D73592B /* [CP] Check Pods Manifest.lock */,
 				A745ADC621BFA4140065E2F7 /* Sources */,
 				A745ADC721BFA4140065E2F7 /* Frameworks */,
 				A745ADC821BFA4140065E2F7 /* Resources */,
+				36FAC4A2CD2794F76D562FFD /* [CP] Embed Pods Frameworks */,
+				8BC920935AF5D4F28F417B40 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -291,11 +325,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36FAC4A2CD2794F76D562FFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yingke-TV/Pods-Yingke-TV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C9E0C630FBD34895D73592B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yingke-TV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BC920935AF5D4F28F417B40 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yingke-TV/Pods-Yingke-TV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A745ADC621BFA4140065E2F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A745ADFF21BFA7B40065E2F7 /* ViewController.m in Sources */,
 				A745ADF921BFA4D20065E2F7 /* AppDelegate.m in Sources */,
 				A745ADDD21BFA4150065E2F7 /* main.m in Sources */,
 			);
@@ -437,10 +523,12 @@
 		};
 		A745ADE121BFA4150065E2F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EA423794E262594841C68ED /* Pods-Yingke-TV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 373E7V4KDR;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Yingke-TV/Classes/Other/yingke.pch";
 				INFOPLIST_FILE = "Yingke-TV/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,10 +542,12 @@
 		};
 		A745ADE221BFA4150065E2F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 371573C6D46210A9EB221D26 /* Pods-Yingke-TV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 373E7V4KDR;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Yingke-TV/Classes/Other/yingke.pch";
 				INFOPLIST_FILE = "Yingke-TV/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
